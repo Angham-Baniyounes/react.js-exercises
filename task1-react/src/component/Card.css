@@ -1,0 +1,64 @@
+.Card {
+    width: 18rem;
+    height: 25rem;
+    background-color: #ffffff;
+    border: 0.5px solid rgb(235, 212, 212);
+    border-radius: 1rem;
+    margin: 3rem;
+    box-shadow: 0.5rem 0.5rem 1rem #a7a7a6, -0.5rem -0.5rem 1rem #a7a7a6;
+    padding-bottom: 2rem;
+}
+.Card:hover {
+    transform: scale(1.06);
+}
+.ImgHeader {
+    background-image: url('./img/stars.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 12rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.pencil {
+    color: white;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.Content {
+    text-align: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.Content h5 {
+    margin: 0.15rem;
+    font-size: 1.05rem;
+}
+.Content h6 {
+    margin: 0.15rem;
+    font-size: 0.85rem;
+}
+.Content p {
+    font-size: 0.85rem;
+}
+.StdImg {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    margin-top: -5rem;
+}
+.Accounts {
+    margin-top: 1rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.linkAccount {
+    color: #7612a0;
+    font-size: 2rem;
+}
+.linkAccount:hover {
+    color: #464098;
+    transform: scale(1.5);
+}

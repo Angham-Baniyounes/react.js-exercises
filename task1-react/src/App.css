@@ -1,0 +1,21 @@
+.App {
+  margin-top: 3rem auto auto auto;
+}
+@media all and (max-width: 375px) {
+  .App {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media all and (max-width: 786px) {
+  .App {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media all and (min-width: 699px), (min-width: 1151px) {
+  .App {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
